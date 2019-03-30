@@ -19,4 +19,10 @@ public class CourseController {
 
         return new ResponseEntity<>("OK",HttpStatus.OK);
     }
+
+    @GetMapping(path = "{stringinput}", produces = "application/json")
+    public HttpEntity 2sum() {
+
+        return
+    }
 }
